@@ -16,7 +16,7 @@ class ViewController: UIViewController, SecondViewControllerDelegate {
     @IBAction func buttonPressed (sender:AnyObject) {
         let newVC = self.storyboard?.instantiateViewControllerWithIdentifier("SECOND_VC") as SecondViewController
         self.navigationController?.pushViewController(newVC, animated: true)
-//** STEP 4: assign the protocol to self **//
+//** STEP 4: assign the protocol's delegate to self **//
         newVC.delegate = self
     }
     
