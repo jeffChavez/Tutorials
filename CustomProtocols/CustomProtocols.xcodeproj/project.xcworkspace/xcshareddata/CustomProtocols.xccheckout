@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E7EBC38-45E6-4F40-9BB8-8444C8356725</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomProtocols</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7DBD8935B433BA0FA8A889653D149BE9FACAB38</key>
+		<string>https://github.com/jeffChavez/Tutorials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomProtocols/CustomProtocols.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7DBD8935B433BA0FA8A889653D149BE9FACAB38</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jeffChavez/Tutorials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7DBD8935B433BA0FA8A889653D149BE9FACAB38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7DBD8935B433BA0FA8A889653D149BE9FACAB38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tutorials</string>
+		</dict>
+	</array>
+</dict>
+</plist>
