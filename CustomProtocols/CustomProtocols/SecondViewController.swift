@@ -17,7 +17,7 @@ class SecondViewController: UIViewController {
     
     @IBOutlet var textLabel : UILabel!
     
-    //** STEP 2 : create a delegate property **//
+//** STEP 2 : create a delegate property **//
     var delegate : SecondViewControllerDelegate?
     
     @IBAction func buttonPressed (sender: AnyObject) {
@@ -27,7 +27,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //** STEP 6 : call the method on the delegate property **//
+//** STEP 6 : call the method on the delegate property **//
         delegate?.didTapButton(self.textLabel.text!)
         
         // Do any additional setup after loading the view.

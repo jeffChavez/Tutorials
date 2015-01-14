@@ -16,15 +16,13 @@ class ViewController: UIViewController, SecondViewControllerDelegate {
     @IBAction func buttonPressed (sender:AnyObject) {
         let newVC = self.storyboard?.instantiateViewControllerWithIdentifier("SECOND_VC") as SecondViewController
         self.navigationController?.pushViewController(newVC, animated: true)
-        
-        
-        //** STEP 4: assign the protocol to self **//
+//** STEP 4: assign the protocol to self **//
         newVC.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -33,7 +31,7 @@ class ViewController: UIViewController, SecondViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    //** STEP 5 : conform to the protocol **//
+//** STEP 5 : conform to the protocol **//
     func didTapButton(string: String) {
         self.textLabel.text = string
     }
