@@ -8,4 +8,4 @@ Custom protocols can be used to pass data around in your app. In this project we
 - Step 3 : add this new protocol to the controller that will be receiving the data
 - Step 4 : assign this new protocol to self
 - Step 5 : conform to the protocol in the in the receiving view controller
-- Step 5 : call the protocol method on the delegate property
+- Step 6 : call the protocol method on the delegate property
